@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}  %MikTeX
+\documentclass[a4paper]{article}  %MikTeX
 \usepackage[14pt]{extsizes}
 \usepackage[cp1251]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb,amscd,euscript}
@@ -51,14 +51,41 @@
 \newcommand{\Tymm}{\value{Tyach1}mm}
 \newcommand{\Tpmm}{\value{tableP}mm}
 
+%Ќумераци€ формул относительно секции
+\counterwithin*{equation}{section}
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+%изменение шрифта в заголовке секции
+\makeatletter
+
+\renewcommand\section{
+	\@startsection{section}
+					{1}
+					{\z@}%
+					{-3.5ex \@plus -1ex \@minus -.2ex}%
+					{-1em}%
+					{\normalfont\normalsize\bfseries}
+}
+
+\makeatother
+
+%точка после номера секции
+\usepackage{titlesec}
+\titlelabel{\thetitle.\;}
 
 \begin{document}	
 	\converttomm{\mmTextWidth}{\textwidth}
 	\setcounter{tableO}{\mmTextWidth}
 	\setcounter{Tyach1}{10}
 	\setcounter{tableP}{\value{tableO}-\value{Tyach1}}
+	\begin{center}
+		\bf \large ќ периодических движени€х гамильтоновой системы с двум€ степен€ми свободы в окрестности кратного резонанса третьего пор€дка
+	\end{center}
 	
-	\section{¬ведение. }
+	\section*{јннотаци€.} –ассматриваютс€ движени€ периодической по времени гамильтоновой системы с двум€ степен€ми свободы в окрестности тривиального равновеси€, устойчивого в линейном приближении. ѕредполагаетс€, что в системе реализуетс€ двойной (основной и комбинационный) резонанс третьего пор€дка или значени€ параметров близки к резонансным. ƒл€ частного случа€ исследуетс€ вопрос о существовании и числе резонансных периодических движений в малой окрестности равновеси€, проанализированы услови€ их устойчивости в линейном приближении.
+	
+	\section*{ лючевые слова:} гамильтонова€ система, двойной резонанс третьего пор€дка, устойчивость в линейном приближении, периодические движени€
+	
+	\section*{¬ведение.}
 	
 	»сследованию данной проблематики посв€щена цела€ сери€ работ.
 	
@@ -335,7 +362,8 @@
 	
 	\newpage
 	\noindent
-	\center{\small
+	\begin{center}
+		\small
 		\begin{tabularx}{\Tomm}{|@{}C{\Tymm}@{}|@{}>{\centering\arraybackslash}X@{}|@{}}
 			\hline
 			є & 
@@ -539,7 +567,7 @@
 			\end{tabularx}} \\ \hline
 			
 		\end{tabularx}
-	}
+	\end{center}
 	
 	¬ таблице введены следующие обозначени€: $g_2^m = -\cfrac43 g_1 - \cfrac23 g_3$, $g_2^p = \cfrac43 g_1 + \cfrac23 g_3$, $g_{2m}^{\pm} = -\cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$, $g_{2p}^{\pm} = \cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$
 	
