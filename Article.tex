@@ -28,6 +28,7 @@
 
 \newcommand{\skobkiKr}[1]{\left(#1\right)}
 \newcommand{\veps}{\varepsilon}
+\newcommand{\const}{\textnormal{const}}
 
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
@@ -87,7 +88,7 @@
 	
 	\section*{Введение.}
 	
-	Исследование движений, а также их устойивости, в неавтономных гамильтоновых системах при наличии кратных резонансных случаев является достаточно актуальной задачей. Случаи, когда в системе имеется единственный резонанс исследованы довольно полно в работах~\cite{Cholostova_O_dvij_gam_sys1ss, Markeev_O_poved_nelin_gam_sys, Markeev_Parametric_resonans, Cholostova_Parametr_resonans, Markeev_Resonans_tretego_poraydka, Cholostova_O_nelineynyh_kolebaniyah, Markeev_O_kriticheskom_sluchae, Cholostova_O_nelin_koleb_gamil_sys, Cholostova_O_bifurkaciyah_i_ustoycivosti, Cholostova_O_resonansnyh_periodich_dvij, Cholostova_O_dvij_blizkoy, Cholostova_O_dvij_blizkoy_4poryadka, Cholostova_O_period_dvij_neavt_gam_sys}.
+	Исследование движений, а также их устойивости, в неавтономных гамильтоновых системах при наличии кратных резонансных случаев является достаточно актуальной задачей. Случаи, когда в системе имеется единственный резонанс исследованы довольно полно в работах~\cite{Cholostova_O_dvij_gam_sys1ss, Markeev_O_poved_nelin_gam_sys, Markeev_Parametric_resonans, Cholostova_Parametr_resonans, Markeev_Resonans_tretego_poraydka, Cholostova_O_nelineynyh_kolebaniyah, Markeev_O_kriticheskom_sluchae, Cholostova_O_nelin_koleb_gamil_sys, Cholostova_O_bifurkaciyah_i_ustoycivosti, Cholostova_O_resonansnyh_periodich_dvij, Cholostova_O_dvij_blizkoy, Cholostova_O_dvij_blizkoy_4poryadka, Cholostova_O_period_dvij_neavt_gam_sys,Cholostova_Issl_nelin_koleb_gamil_sys}.
 	
 	В последнее время активно развивается исследование устойчивости при наличии в системе кратных резонансов. Изучение влияния кратных резонансов одного порядка на устойчивость положения равновесия в случае многомерных автономных гамильтоновых~\cite{Chazin_Ob_ustoycivosti_polojeniya_ravnovesiya, Chazin_Vzaimodeystvie_resonansov_tretiego_porayadka}, а также негамильтоновых~\cite{Kunicin_Ob_ustoychivosti_v_krit_sl, Chazina_Nekotorye_voprosy_ustoychivosti, Kunicin_Medvedev_Ob_ustoychivosti_pri_nalichii, Kunicin_Tachimov_Nekotorye_zadachi_ustoych} систем.
 	
@@ -227,40 +228,69 @@
 
 	Гамильтониан $\Gamma_{+}$ отвечает случаю двух сильных (основного и комбинационного) резонансов третьего порядка, а гамильтониан $\Gamma_{-}$ --- случаю сильного основного и слабого комбинационного резонансов. Эти гамильтонианы зависят от пяти параметров $\nu_1$, $\nu_2$,$\alpha$, $\gamma_{20}$ и $\gamma_{02}$. Резонансный коэффициент $\alpha$ в ~\eqref{gam_O} считаем положительным, коэффициенты $\nu_1$ и $\nu_2$, соответствующие резонансным расстройкам, а также $\gamma_{20}$ и $\gamma_{02}$ в членах четвертой степени относительно $R_j^{1/2}$ могут принимать значения любого знака.
 	
-	\newpage
+	\section{\label{t-p3}{Положения равновесия модельных систем.}}
 	
-	Рассмотрим случаи близкие к рассматриваемым резонансам. Проведем аналогичную серию канонических замен для упрощения вида гамильтониана вомущенного движения в малой, порядка $\veps$ $(0 < \veps \ll 1)$, окрестности начала координат фазового пространства. Введем резонансные расстройки $\mu_j$ по формулам $\lambda_j = \lambda_{j0} - \veps^2 \mu_j$ $(j = 1,2)$. После перехода к новому времени $\tau=\veps^2 t$ гамильтониан в симплектических полярных координатах примет следующий вид:
-	\begin{equation*}\label{Ham1R}
-		\begin{aligned}
-			\Gamma_{\pm}^* = \nu_1 R_1 \pm \nu_2 R_2 + \alpha R_1^{\frac32} \cos 3 \Phi_1 &+ R_1^{\frac12} R_2 \cos \left( \Phi_1 \pm 2 \Phi_2 \right) +\\
-			&+\gamma_{20} R_1^2 + R_1 R_2 + \gamma_{02} R_2^2 + O(\veps),
-		\end{aligned}
-	\end{equation*}
-	где $\nu_j$ - коэффициенты, характеризующие резонансные расстройки, а остальные коэффициенты аналогичны введенным в~\eqref{Ham1}.
-
-	Проведен анализ вопросов существования и числа положений равновесия модельных гамильтоновых систем в окрестности кратного резонанса для двух случаев, когда $\nu_1 = 0$, $\nu_2 \neq 0$ и $\nu_1 \neq 0$, $\nu_2 = 0$.
-
-	Как и в случае точного резонанса должны выполняться условия $\sin\left(\Phi_1 \pm 2\Phi_2\right) = 0$ и $\sin\left(3\Phi_1\right) = 0$, а равновесные значения величин $R_1$ и $R_2$ задаются системой двух алгебраических уравнений
-	\begin{equation*}\label{SuR}
-		\begin{aligned}
-			\nu_1 + \frac32 \alpha \delta_1 R_1^{\frac12} + \frac12 \delta_2 R_1^{-\frac12} R_2 + 2 \gamma_{20} R_1 + R_2&= 0,\\
-			\nu_2 \sigma + \delta_2 R_1^{\frac12} + R_1 + 2 \gamma_{02} R_2 &= 0.
-		\end{aligned}
-	\end{equation*}
-
-	Проведено сравнение результатов со случаем точного резонанса.
+	Отбрасывая в ~\eqref{gam_O} слагаемое $O(\varepsilon)$, получаем приближенные (модельные) гамильтонианы:
+	\begin{eqnarray}
+		\label{gam1}
+		\begin{multlined}[b][16cm]
+			\Gamma_+ = \nu_1 R_1 + \nu_2 R_2 + \alpha R_1^{3/2} \cos 3\Phi_1 + R_1^{1/2}R_2\cos(\Phi_1 + 2\Phi_2) +\\
+			+\gamma_{20} R_1^2 + R_1 R_2 + \gamma_{02} R_2^2,
+		\end{multlined}\\
+		\label{gam2}
+		\begin{multlined}[b][16cm]
+			\Gamma_- = \nu_1 R_1 - \nu_2 R_2 + \alpha R_1^{3/2} \cos 3\Phi_1 + R_1^{1/2}R_2\cos(\Phi_1 - 2\Phi_2) +\\
+			+\gamma_{20} R_1^2 + R_1 R_2 + \gamma_{02} R_2^2.
+		\end{multlined}
+	\end{eqnarray}
 	
-	В первом случае при $\nu_1 \neq 0$, $\nu_2 = 0$ система алгебраических уравнений имеет вид
+	Для дальнейшего исследования удобно ввести обозначения
+	\begin{align}
+		\label{zamena5}	
+		\Psi_1 = 3 \Phi_1, \qquad \Psi_2 = \Phi_1 \pm 2 \Phi_2.	
+	\end{align}
 	
-	\begin{align*} 
+	Приближенные системы уравнений, описывающие изменения переменных $\Phi_j$, $R_j$ $(j=1,2)$, имеют вид
+	\begin{equation}\label{sys_bO}
 		\begin{aligned}
-			\nu_1 + \frac32 \alpha \delta_1 R_1^{\frac12} + \frac12 \delta_2 R_1^{-\frac12} R_2 + 2 \gamma_{20} R_1 + R_2&= 0,\\
-			\delta_2 R_1^{\frac12} + R_1 + 2 \gamma_{02} R_2 &= 0.
+			\cfrac{d \Phi_1}{d \hat{\tau}} &= \nu_1 + \dfrac{3}{2} \alpha R_1^{1/2} \cos \Psi_1 + \dfrac{1}{2}\cfrac{R_2}{R_1^{1/2}} \cos \Psi_2 + 2 \gamma_{20} R_1 + R_2,\\
+			\cfrac{d \Phi_2}{d \hat{\tau}} &= \pm\nu_2 + R_1^{1/2} \cos \Psi_2 + R_1 + 2 \gamma_{02} R_2,\\
+			\cfrac{d R_1}{d \hat{\tau}} &= R_1^{1/2} \left( 3 \alpha R_1 \sin \Psi_1 + R_2 \sin \Psi_2 \right),\\
+			\cfrac{d R_2}{d \hat{\tau}} &= \pm 2 R_1^{1/2} R_2 \sin \Psi_2,		
 		\end{aligned}
+	\end{equation}
+	где верхний и нижний знаки соответствуют гамильтониану ~\eqref{gam1} и ~\eqref{gam2}.
+	
+	Найдем положения равновесия модельных систем. Приравняв нулю правые части систем $\eqref{sys_bO}$, получим, несколько возможных случаев для нахождения положений равновесия. Неустойчивое тривиальное положение равновесия $R_1=R_2=0$ было исследовано ранее в~\cite{Cholostova_O_dvijeniyah_gamiltonov_sys_s_dvumya}. Также имеются положения равновесия, для которых $R_1 \equiv 0$. Этот случай приводит к исследованию системы с циклической координатой с одной степенью свободы без резонансов с гамильтонианом $\Gamma_{\pm} = \pm \nu_2 R_2 + \gamma_{02} R_2^2$, для которого равновесные значения устойчивы в линейном приближении и равны
+	\begin{align*}
+		\Phi_2&= \Phi_{20} = \const, & R_2 &= \mp\cfrac{\nu_2}{2 \gamma_{02}}.
 	\end{align*}
+	А также имеются положения равновесия, для которых  $R_2 \equiv 0$, а равновесные значения величин $\Psi_1$ и $R_1$ описываются соотношениями
+	\begin{align*}
+		\begin{aligned}
+			\sin 3\Phi_1&=0, &&& \nu_1 + \dfrac32\alpha\delta_1R_1^{1/2} + 2 \gamma_{20} R_1 = 0
+		\end{aligned}\\
+		\skobkiKr{\delta_1 = \cos 3\Phi_1 = \pm 1, \quad D = \dfrac92 \alpha^2 - 8 \nu_1 \gamma_{20}>0}.
+	\end{align*}
+	Этот случай сводится к системе с одной степенью свободы при наличии резонанса третьего порядка \cite{vopros}, в рамках этой системы указанные положения равновесия устойчивы(???).
 	
-	А во втором при $\nu_1 = 0$, $\nu_2 \neq 0$
+	Найдем  положения равновесия модельных систем, отличные от описанных. Как и в случае точного резонанса~\cite{Safonov_Holostova_2016_O_period_dvij_gam_sys} должны выполняться условия $\sin \Psi_1 = 0$ и $\sin \Psi_2 = 0$, а равновесные значения величин $R_1$ и $R_2$ задаются системой двух алгебраических уравнений
+	\begin{equation}\label{SuR}
+		\begin{aligned}
+			\nu_1 + \frac32 \alpha \delta_1 R_1^{\frac12} + \frac12 \delta_2 R_1^{-\frac12} R_2 + 2 \gamma_{20} R_1 + R_2&= 0,\\
+			\nu_2 \sigma + \delta_2 R_1^{\frac12} + R_1 + 2 \gamma_{02} R_2 &= 0,
+		\end{aligned}
+	\end{equation}
+	где введены обозначения $\delta_j = \cos \Psi_j$, $(\delta_j = \pm 1, j = 1,2)$.
 	
+	Будем рассматривать частные случаи, когда одна из резонансных расстроек $\nu_j$ $\skobkiKr{j=1,2}$ равна нулю. В случае, когда $\nu_1 \neq 0$, $\nu_2 = 0$, система алгебраических уравнений~\eqref{SuR} принимает вид
+	\begin{align} \label{SuRnu20}
+		\begin{aligned}
+			\nu_1 + \frac32 \alpha \delta_1 R_1^{\frac12} + \frac12 \delta_2 R_1^{-\frac12} R_2 + 2 \gamma_{20} R_1 + R_2&= 0,\\
+			\delta_2 R_1^{\frac12} + R_1 + 2 \gamma_{02} R_2 &= 0;
+		\end{aligned}
+	\end{align}
+	а во втором при $\nu_1 = 0$, $\nu_2 \neq 0$ соответственно
 	\begin{align*} 
 		\begin{aligned}
 			\frac32 \alpha \delta_1 R_1^{\frac12} + \frac12 \delta_2 R_1^{-\frac12} R_2 + 2 \gamma_{20} R_1 + R_2&= 0,\\
@@ -268,9 +298,11 @@
 		\end{aligned}
 	\end{align*}
 	
-	Каждый из этих случаев  зависит от четырех параметров. Ограничиваемся первым случаем.
-	С помощью обозначений $g_1 = \gamma_{20} \gamma_{02}$, $g_2 = \alpha \gamma_{02}$ и $g_3 = \nu_1 \gamma_{02}$ количество параметров системы уменьшается до трех. При этом параметры $g_1$, $g_2$ и $g_3$ могут быть и положительными, и отрицательными то есть имеют произвольные знаки.
+	Каждый из случаев зависит от четырех параметров. В дальнейших исследованиях ограничимся случаем~\eqref{SuRnu20}.
 	
+	С помощью обозначений $g_1 = \gamma_{20} \gamma_{02}$, $g_2 = \alpha \gamma_{02}$ и $g_3 = \nu_1 \gamma_{02}$ количество параметров системы уменьшается до трех. При этом параметры $g_1$, $g_2$ и $g_3$ имеют произвольные знаки.
+	
+	\newpage
 	Корни системы уравнений, если они существуют, имеют вид:
 	
 	\begin{align*} 
@@ -283,6 +315,8 @@
 		}}^2,\\
 		R_2 &= - \cfrac{R_1^{1/2}}{2 \gamma_{02}} \skobkiKr{R_1^{1/2} + \delta_2}.
 	\end{align*}
+	
+
 	
 	\begin{figure}[H]	
 		\begin{minipage}{0.99\linewidth}
@@ -573,6 +607,8 @@
 	
 	В таблице введены следующие обозначения: $g_2^m = -\cfrac43 g_1 - \cfrac23 g_3$, $g_2^p = \cfrac43 g_1 + \cfrac23 g_3$, $g_{2m}^{\pm} = -\cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$, $g_{2p}^{\pm} = \cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$
 	
+	Проведен анализ вопросов существования и числа положений равновесия модельных гамильтоновых систем в окрестности кратного резонанса для двух случаев, когда $\nu_1 = 0$, $\nu_2 \neq 0$ и $\nu_1 \neq 0$, $\nu_2 = 0$.Проведено сравнение результатов со случаем точного резонанса.
+	
 	\begin{thebibliography}{}
 		\bibitem{Kunicin_Ob_ustoychivosti_v_krit_sl}Куницын~А.\,Л. Об устойчивости в критическом случае чисто мнимых корней при внутреннем резонансе // Диференциальные уравнения. 1971. Т. 7. № 9. С. 1704--1706.
 		
@@ -608,13 +644,15 @@
 		
 		\bibitem{Chazina_Nekotorye_voprosy_ustoychivosti}Хазина~Г.\,Г. Некоторые вопросы устойчивости при наличии резонансов // Прикладная математика и механика. 1974. Т. 38. Вып. 1. С. 56--65.
 		
+		\bibitem{Cholostova_Issl_nelin_koleb_gamil_sys} Холостова~О.\,В. Исследование нелинейных колебаний гамильтоновых систем с одной степенью свободы при резонансах. Учебное пособие. М.:Изд-во МАИ, 2011. 96~с.
+		
 		\bibitem{Cholostova_O_bifurkaciyah_i_ustoycivosti}Холостова~О.\,В. О бифуркациях и устойчивости резонансных периодических движений гамильтоновых систем с одной степенью свободы при вырождении гамильтониана // Нелинейная динамика. 2006. Т.2. № 1. С. 87--108.
 		
 		\bibitem{Cholostova_O_vzaimodeystvii_resonansov_tr_i_ch}Холостова~О.\,В. О взаимодействии резонансов третьего и четвертого порядков в гамильтоновой системе с двумя степенями свободы // Нелинейная динамика. 2015. Т. 11. № 4. С. 671--683.
 		
 		\bibitem{Cholostova_O_dvij_blizkoy}Холостова~О.\,В. О движении близкой к гамильтоновой системы с одной степенью свободы при резонансе в вынужденных колебаниях // Прикладная математика и механика. 1996. Т. 60. Вып. 3. С. 405--412.
 		
-		\bibitem{Cholostova_O_dvij_blizkoy_4poryadka}Холостова~О.\,В. О движеннии близкой к гамильтоновой системы с одной степенью свободы при резонансе четвертого порядка // Известия Российской академии наук. Механика твердого тела. 1999. № 4. С. 25--30.
+		\bibitem{Cholostova_O_dvij_blizkoy_4poryadka}Холостова~О.\,В. О движении близкой к гамильтоновой системы с одной степенью свободы при резонансе четвертого порядка // Известия Российской академии наук. Механика твердого тела. 1999. № 4. С. 25--30.
 		
 		\bibitem{Cholostova_O_dvij_gam_sys1ss} Холостова~О.\,В. О движении гамильтоновой системы с одной степенью свободы при резонансе в вынужденных колебаниях  // Известия Российской академии наук. Механика твердого тела.  1996. № 3. С. 167--175.
 		
