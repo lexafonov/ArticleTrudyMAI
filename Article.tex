@@ -298,7 +298,7 @@
 	
 	При помощи второго уравнения системы $\eqref{SuRnu20}$ исключаем $R_2$ из первого уравнения и перепишем систему в виде
 	\begin{gather}
-		\label{ur_p_r_1}2 (4 g_1 - 1) R_1 + 3 (2 \delta_1 g_2 - \delta_2) R_1^{1/2} +\skobkiKr{4g_3- 1} = 0,\\
+		\label{ur_p_r_1}2 \skobkiKr{4 g_1 - 1} R_1 + 3 \skobkiKr{2 \delta_1 g_2 - \delta_2} R_1^{1/2} +\skobkiKr{4g_3- 1} = 0,\\
 		\label{ur_p_r_2}R_2 = - \cfrac{R_1^{1/2}}{2\gamma_{02}}\skobkiKr{\delta_2 + R_1^{1/2}},
 	\end{gather}
 	где с помощью обозначений $g_1 = \gamma_{20} \gamma_{02}$, $g_2 = \alpha \gamma_{02}$ и $g_3 = \nu_1 \gamma_{02}$ количество параметров системы уменьшается до трех. При этом параметры $g_1$, $g_2$ и $g_3$ не равны нулю и имеют произвольные знаки.
@@ -334,7 +334,7 @@
 	
 	Анализируя расположения этих корней относительно нуля, найдем области значений параметров  $g_1$, $g_2$ и $g_3$, в которых выполнено неравенство $D > 0$. Эти области представлены в таблице~\ref{tablD}.
 	
-		\begin{table}[H]
+	\begin{table}[H]
 		\caption{Решение наравенства $D>0$}
 		\begin{center}
 			\begin{tabular}{|c|c|c|c|}
@@ -365,104 +365,108 @@
 			\label{tablD}
 		\end{center}
 	\end{table}
+	где введены обозначения на параметр $g_2$: 
+	\begin{align}\label{ogrG2}
+		g_{2p}^{\pm} &= \dfrac12 \pm \dfrac13 \sqrt{2\skobkiKr{ 1 - 4g_1}\skobkiKr{ 1 - 4g_3}},& g_{2m}^{\pm} &= -\dfrac12 \pm \dfrac13 \sqrt{2\skobkiKr{ 1 - 4g_1}\skobkiKr{ 1 - 4g_3}}.
+	\end{align}
 	
-	\newpage
-	Корни системы уравнений, если они существуют, имеют вид:
+	В найденных областях  были проверены условия положительности корней $R_1^{1/2}$  уравнения ~\eqref{ur_p_r_1} и условия \eqref{resh_us_2_2}. При этом часть решений была отброшена, а на параметры $g_1$, $g_2$ и $g_3$ в ряде случаев получены дополнительные ограничения.
+
+	Пространство параметров $g_1$, $g_3$ разделяется на несколько областей интервалов изменения параметра $g_2$; эти области расположены на рисунке~\ref{fig:ris_NU_G1}.
 	
-	\begin{align*} 
-		R_1 &= \skobkiKr{\cfrac
-		{
-			-3\skobkiKr{2 \delta_1 g_2 - \delta_2} \pm \sqrt{36 g_2^2 - 36 \delta_1 \delta_2 g_2 + \skobkiKr{32 g_1 + 32 g_3 - 128 g_1 g_3 + 1}}
-		}
-		{
-			4 \skobkiKr{4g_1 - 1}
-		}}^2,\\
-		R_2 &= - \cfrac{R_1^{1/2}}{2 \gamma_{02}} \skobkiKr{R_1^{1/2} + \delta_2}.
+	\begin{figure}[H]
+		\begin{center}
+			\begin{minipage}{0.85\linewidth}
+				\begin{center}
+					\psfrag{g3}{$g_3$}
+					\psfrag{g1}{$g_1$}
+					\psfrag{null}{$0$}
+					\psfrag{1/4}{$\frac14$}
+					\psfrag{1/16}{$\frac{1}{16}$}
+					\psfrag{-1/8}{$-\frac{1}{8}$}
+					\psfrag{-1/4}{$-\frac{1}{4}$}
+					\psfrag{A}{A}
+					\psfrag{B}{B}
+					\psfrag{C}{C}
+					\psfrag{D}{D}
+					\psfrag{E}{E}
+					\psfrag{F}{F}
+					\psfrag{G}{G}
+					\psfrag{H}{H}
+					\psfrag{I}{I}
+					\psfrag{J}{J}
+					\psfrag{K}{K}
+					\psfrag{L}{L}
+					\psfrag{M}{M}
+					\psfrag{n01}{1}
+					\psfrag{n02}{2}
+					\psfrag{n03}{3}
+					\psfrag{n04}{4}
+					\psfrag{n05}{5}
+					\psfrag{n06}{6}
+					\psfrag{n07}{7}
+					\psfrag{n08}{8}
+					\psfrag{n09}{9}
+					\psfrag{n10}{10}
+					\psfrag{nOdin}{\scriptsize 11}
+					\psfrag{n12}{12}
+					\psfrag{n13}{13}
+					\psfrag{n14}{\scriptsize 14}
+					\psfrag{n15}{\small 15}
+					\psfrag{n16}{\footnotesize 16}
+					\psfrag{n17}{17}
+					\psfrag{n18}{18}
+					\psfrag{n19}{19}
+					\psfrag{n20}{20}
+					\psfrag{n21}{21}
+					\psfrag{n22}{22}
+					\psfrag{n23}{23}
+					\psfrag{n24}{24}
+					\psfrag{n25}{25}
+					\psfrag{n26}{26}
+					\psfrag{g30Zv}{$g_{30}^*$}
+					\psfrag{g3Zv}{$g_3^*$}
+					\psfrag{g31Zv}{$g_{31}^*$}
+					\psfrag{g3fZvp}{$g_{3F}^{+}$}
+					\psfrag{g3fZvm}{$g_{3F}^{-}$}
+					\includegraphics[width=0.85\linewidth,clip, keepaspectratio]{ris-01.eps}
+					%\includegraphics[height=18cm, clip, keepaspectratio]{ris-01.eps}
+				\end{center}
+			\end{minipage}	
+			\caption{Разбиение областей существования корней в плоскости параметров $g_1$, $g_3$.}
+			\label{fig:ris_NU_G1}
+		\end{center}
+	\end{figure}
+	На рисунке числами 1-24 обозначены номера областей номера областей; буквами A-M --- точки пересечения границ; для границ областей введены обозначения
+	\begin{align*}
+		g_3^* &= \cfrac{1}{4} + \cfrac{9}{32(4g_1-1)},& g_{30}^{*}&= -2g_1,& g_{31}^{*}&= 2g_1 - \cfrac{1}{4},& g_{3F}^{\pm} &= 2g_1 - \cfrac74 \pm \sqrt{3 - 12 g_1}.
+	\end{align*}
+	Обозначенные точки имеют следующие координаты:
+	\begin{align*}
+		&B\skobkiKr{-\frac12, \frac14},&
+		&A\skobkiKr{-\frac18\skobkiKr{\frac52 + 3\sqrt{2}}, \frac34 \sqrt{2} - \frac78},&  
+		C\skobkiKr{-\frac18, \frac14},\\
+		&D\skobkiKr{\frac1{16}, -\frac18},& 
+		&E\skobkiKr{\frac18\skobkiKr{3\sqrt{2} - \frac52},-\frac14\skobkiKr{3\sqrt{2}+\frac72}},& 
+		F\skobkiKr{\frac14, -\frac54},\\
+		&G\skobkiKr{\frac14, -\frac12},& 
+		&H\skobkiKr{\frac14, \frac14},& 
+		I\skobkiKr{\frac{7}{16}, \frac58}.
 	\end{align*}
 	
-
+	Каждая занумерованная область рис.~\ref{fig:ris_NU_G1} разбивается на несколько интервалов (от четырех до шести) изменения параметра $g_2$ с различными числом (от нуля до четырех) положений равновесия, являющихся решением уравнения~\eqref{ur_p_r_1} и удовлетворяющих условиям ~\eqref{resh_us_2_2}. В таблице~\ref{tablG2Kol} приведены интервалы изменения по параметру $g_2$ для соответвующих занумерованных областей и имеющееся количество положений равновесия в данной области.
 	
-	\begin{figure}[H]	
-		\begin{minipage}{0.99\linewidth}
-			\center{
-				\psfrag{g3}{$g_3$}
-				\psfrag{g1}{$g_1$}
-				\psfrag{0}{$0$}
-				\psfrag{1/4}{$\cfrac14$}
-				\psfrag{1/16}{$\cfrac{1}{16}$}
-				\psfrag{-1/8}{$-\cfrac{1}{8}$}
-				\psfrag{-1/4}{$-\cfrac{1}{4}$}
-				\psfrag{A}{$A$}
-				\psfrag{B}{$B$}
-				\psfrag{C}{$C$}
-				\psfrag{D}{$D$}
-				\psfrag{E}{$E$}
-				\psfrag{F}{$F$}
-				\psfrag{G}{$G$}
-				\psfrag{H}{$H$}
-				\psfrag{I}{$I$}
-				\psfrag{J}{$J$}
-				\psfrag{K}{$K$}
-				\psfrag{L}{$L$}
-				\psfrag{M}{$M$}
-				\psfrag{1}{$1$}
-				\psfrag{2}{$2$}
-				\psfrag{3}{$3$}
-				\psfrag{4}{$4$}
-				\psfrag{5}{$5$}
-				\psfrag{6}{$6$}
-				\psfrag{7}{$7$}
-				\psfrag{8}{$8$}
-				\psfrag{9}{$9$}
-				\psfrag{10}{$10$}
-				\psfrag{11}{$11$}
-				\psfrag{12}{$12$}
-				\psfrag{13}{\footnotesize $13$}
-				\psfrag{14}{\footnotesize $14$}
-				\psfrag{15}{$15$}
-				\psfrag{16}{$16$}
-				\psfrag{17}{$17$}
-				\psfrag{18}{$18$}
-				\psfrag{19}{$19$}
-				\psfrag{20}{$20$}
-				\psfrag{21}{$21$}
-				\psfrag{22}{$22$}
-				\psfrag{23}{$23$}
-				\psfrag{24}{$24$}
-				\psfrag{25}{$25$}
-				\psfrag{26}{$26$}
-				\psfrag{g30Zv}{$g_{30}^*$}
-				\psfrag{g3Zv}{$g_3^*$}
-				\psfrag{g31Zv}{$g_{31}^*$}
-				\psfrag{g3fZvp}{$g_{3F}^{+}$}
-				\psfrag{g3fZvm}{$g_{3F}^{-}$}
-				\includegraphics[height=18cm, clip, keepaspectratio]{ris-01.eps}
-			}
-		\end{minipage}	
-		\caption{Разбиение областей существования корней в плоскости параметров $g_1$, $g_3$. 1-24 --- номера областей. A-M --- точки пересечения границ.}
-		\label{fig:ris_NU_G1}
-	\end{figure}
+	В таблице введены следующие граничные значения параметра $g_2$: 
+	\begin{align*}
+		g_2^m &= -\cfrac43 g_1 - \cfrac23 g_3,& g_2^p &= \cfrac43 g_1 + \cfrac23 g_3.
+	\end{align*}
+	Остальные граничные значения введены ранее в~\eqref{ogrG2}.
 	
-	На рисунке введены следующие обозначения: $g_3^* = \cfrac{1}{4} + \cfrac{9}{32(4g_1-1)}$, $g_{30}^{*}= -2g_1$, $g_{31}^{*}= 2g_1 - \cfrac{1}{4}$, 
+	В первом столбце таблицы~\ref{tablD} представлен порядковый номер области, указанный на рис.~\ref{fig:ris_NU_G1}. Каждая строка таблицы представляет собой разделение действительной области изменения параметра $g_2$ на подобласти. В каждой ячейке таблицы число рядом с интервалом параметра $g_2$ представляет собой количество положений равновесия в указанном интервале. Каждой ячейке таблицы соответствуют несколько значений набора параметров $\skobkiKr{\delta_1,\delta_2}$, при каждом из которых реализуется одно или два решения системы уравнений~\eqref{SuRnu20} или не реализуется вовсе.
 	
-	$$g_{3F}\skobkiKr{g_1, g_3} = 4g_3^2 + 2\skobkiKr{7 - 8g_1} g_3 + 16 g_1^2 +20 g_1 + \cfrac14 = 0,$$
-	
-	откуда получим $g_{3F}^{+} = 2g_1 - \cfrac74 + \sqrt{3 - 12 g_1}$, $g_{3F}^{-} = 2g_1 - \cfrac74 - \sqrt{3 - 12 g_1}$.
-	
-	Обозначенные точки имеют следующие координаты: 
-	$A\skobkiKr{-\frac18\skobkiKr{\frac52 + 3\sqrt{2}}, \frac34 \sqrt{2} - \frac78}$, 
-	$B\skobkiKr{-\frac12, \frac14}$, 
-	$C\skobkiKr{-\frac18, \frac14}$, 
-	$D\skobkiKr{\frac1{16}, -\frac18}$, 
-	$E\skobkiKr{\frac18\skobkiKr{3\sqrt{2} - \frac52},-\frac14\skobkiKr{3\sqrt{2}+\frac72}}$, 
-	$F\skobkiKr{\frac14, -\frac54}$, 
-	$G\skobkiKr{\frac14, -\frac12}$, 
-	$H\skobkiKr{\frac14, \frac14}$, 
-	$I\skobkiKr{\frac{7}{16}, \frac58}$.
-	
-	\newpage
 	\noindent
-	\begin{center}
+	\begin{table}[H]
+		\caption{Разбиение областей рис.~\ref{fig:ris_NU_G1} по параметру $g_2$}
 		\small
 		\begin{tabularx}{\Tomm}{|@{}C{\Tymm}@{}|@{}>{\centering\arraybackslash}X@{}|@{}}
 			\hline
@@ -665,11 +669,28 @@
 					$\skobkiKr{g_{2p}^-; g_2^m}$,		$0$ &
 					$\skobkiKr{g_2^m; +\infty}$,		$1$ 
 			\end{tabularx}} \\ \hline
-			
 		\end{tabularx}
-	\end{center}
+		\label{tablG2Kol}
+	\end{table}
 	
-	В таблице введены следующие обозначения: $g_2^m = -\cfrac43 g_1 - \cfrac23 g_3$, $g_2^p = \cfrac43 g_1 + \cfrac23 g_3$, $g_{2m}^{\pm} = -\cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$, $g_{2p}^{\pm} = \cfrac12 \pm \cfrac13\sqrt{2\skobkiKr{4g_1 - 1}\skobkiKr{4g_3 - 1}}$
+	В ячейках таблицы указано количество соответствующих рассматриваемому случаю равновесных значений  $R_1=R_{10}^{\pm}$, задаваемых равенствами
+	\begin{eqnarray}\label{Resh_PR}
+		\begin{aligned}
+			R_{10}^{\pm} &= \skobkiKr{\cfrac
+		{
+			-3\skobkiKr{2 \delta_1 g_2 - \delta_2} \pm \sqrt{D}
+		}
+		{
+			4 \skobkiKr{4g_1 - 1}
+		}}^2,
+		\end{aligned}
+	\end{eqnarray}
+	где $D$ --- дискриминант \eqref{diskriminant}.
+	Каждому значению $R_{10}^+$  или $R_{10}^-$ отвечает единственное равновесное значение  $R_2=R_{20}$, вычисляемое по формуле~\eqref{ur_p_r_2}.
+	
+	В следующих разделах будет проведено исследование устойчивости найденных положений равновесия.
+	
+	\newpage
 	
 	Проведен анализ вопросов существования и числа положений равновесия модельных гамильтоновых систем в окрестности кратного резонанса для двух случаев, когда $\nu_1 = 0$, $\nu_2 \neq 0$ и $\nu_1 \neq 0$, $\nu_2 = 0$.Проведено сравнение результатов со случаем точного резонанса.
 	
