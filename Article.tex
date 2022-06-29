@@ -13,6 +13,7 @@
 \usepackage{makecell}
 \usepackage{hhline}
 \usepackage{tabularx}
+\usepackage{longtable}
 
 \usepackage{mathtools}
 
@@ -744,7 +745,7 @@
 				\cline{1-2} \cline{5-5}
 				$D_4$ & $\skobkiKr{\dfrac1{16}, \dfrac14}$ & & & $\skobkiKr{g_{31}^*, \dfrac14}$\\
 				\hline
-				$D_5$ & \multirow{6}*{$\skobkiKr{\dfrac14, \infty}$} & \multirow{3}*{$\skobkiKr{\phantom{-}1,\phantom{-}1}$} & $\skobki{(}{]}{-\infty, g_{2p}^-}$ & $\skobkiKr{g_{3}^*, \infty}$\\
+				$D_5$ & \multirow{6}*{$\skobkiKr{\dfrac14, +\infty}$} & \multirow{3}*{$\skobkiKr{\phantom{-}1,\phantom{-}1}$} & $\skobki{(}{]}{-\infty, g_{2p}^-}$ & $\skobkiKr{g_{3}^*, +\infty}$\\
 				\cline{1-1}\cline{4-5}
 				$D_6$ & & & \multirow{2}*{$\skobkiKr{-\infty, 0}$} & $\skobkiKr{-\infty, \dfrac14}$\\
 				\cline{1-1}\cline{5-5}
@@ -809,19 +810,62 @@
 
 	ќтметим, что сделанные выводы верны дл€ гамильтонианов обоих типов, так как свободный член $q$ в характеристическом уравнении дл€ них одинаков.
 	
-	–аспределение точек $D_i$ $(i=1\ldots10)$ и $N_j$ $(j=1\ldots21)$ в плоскости параметров $g_1$ и $g_3$ показано на рисунке~\ref{risNU}. ƒл€ каждой точки условие $q>0$ реализуетс€ дл€ значений  параметров $g_2$, указанных в таблице~\ref{tabular:poloj_ravnNU}.
+	–аспределение точек $D_i$ $(i=1\ldots10)$ и $N_j$ $(j=1\ldots21)$ в плоскости параметров $g_1$ и $g_3$ показано на рисунке~\ref{risNU}. ƒл€ каждой точки условие $q>0$ реализуетс€ дл€ значений параметров $g_2$, указанных в таблицах~\ref{tablDU} и~\ref{tabular:poloj_ravnNU}.
 	
-	\begin{table}[H]
-		\caption{”слови€ существовани€ положений равновеси€, дл€ которых выполн€етс€  условие $q>0$}
-		\label{tablDU}
-		\begin{center}
-			\begin{tabular}{|c|c|c|c|c|c|}
-				\hline
-				& $g_1$& $\skobkiKr{\delta_1, \delta_2}$ & $g_2$ & $g_3$ &  орень $R_{10}$\\
-				\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
+	\begin{center}
+		\LTcapwidth=\textwidth
+		\begin{longtable}{|c|c|c|c|c|c|}
+			\caption{ѕоложени€ равновеси€, дл€ которых выполн€етс€ условие $q>0$}
+			\label{tabular:poloj_ravnNU}\\
+			\hline
+			& $g_1$& $\skobkiKr{\delta_1, \delta_2}$ & $g_2$ & $g_3$ &  орень\\
+			\hline
+			$N_1$ & $\skobki{(}{]}{-\infty, -\dfrac18}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, +\infty}$ & $\skobkiKr{g_3^*, \dfrac14}$ & $R_1^-$\\
+			\hline
+			$N_2$ & $\skobki{(}{]}{-\infty, -\dfrac18}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{0, g_2^m}$ & $\skobkiKr{\dfrac14, g_3^*}$ & $R_1^-$\\
+			\hline
+			$N_3$ & $\skobki{(}{]}{-\infty, -\dfrac18}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, 0}$ & $\skobkiKr{g_{30}^*, +\infty}$ & $R_1^-$\\
+			\hline
+			$N_4$ & $\skobkiKr{-\infty, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, +\infty}$ & $\skobkiKr{-\infty, g_{3}^*}$ & $R_1^-$\\
+			\hline
+			$N_5$ & $\skobkiKr{-\dfrac18, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, +\infty}$ & $\skobki{[}{)}{g_{3}^*, g_{30}^*}$ & $R_1^-$\\
+			\hline
+			$N_6$ & $\skobkiKr{-\dfrac18, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, 0}$ & $\skobkiKr{g_{30}^*, \dfrac14}$ & $R_1^-$\\
+			\hline
+			$N_7$ & $\skobkiKr{-\dfrac18, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{0, +\infty}$ & $\skobkiKr{g_{30}^*, \dfrac14}$ & $R_1^-$\\
+			\hline
+			$N_8$ & $\skobkiKr{-\dfrac18, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{g_2^m, 0}$ & $\skobkiKr{\dfrac14, +\infty}$ & $R_1^-$\\
+			\hline
+			$N_9$ & $\skobkiKr{-\infty, \dfrac14}$ & $\skobkiKr{-1, \phantom{-}1}$ & $\skobkiKr{-\infty, 0}$ & $\skobkiKr{\dfrac14, +\infty}$ & $R_1^-$\\
+			\hline
+			$N_{10}$ & $\skobkiKr{\dfrac14,+\infty}$ & $\skobkiKr{-1, -1}$ & $\skobkiKr{g_2^p, 0}$ & $\skobkiKr{-\infty, g_{30}^*}$ & $R_1^+$\\
+			\hline
+			$N_{11}$ & $\skobki{(}{]}{-\infty, -\dfrac18}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{0, g_2^m}$ & $\skobki{[}{)}{g_{3}^*, \dfrac14}$ & $R_1^-$\\
+			\hline
+			$N_{12}$ & $\skobkiKr{-\infty, \dfrac1{16}}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobki{[}{)}{g_{2m}^+, g_2^m}$ & $\skobkiKr{g_{31}^*, g_3^*}$ & $R_1^-$\\
+			\hline
+			$N_{13}$ & $\skobkiKr{-\dfrac18, \dfrac1{16}}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobkiKr{0, g_2^m}$ & $\skobki{[}{)}{g_{3}^*, g_{30}^*}$ & $R_1^-$\\
+			\hline
+			$N_{14}$ & $\skobkiKr{\dfrac1{16}, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobki{[}{)}{g_{2m}^+, 0}$ & $\skobkiKr{g_{3}^*, g_{30}^*}$ & $R_1^-$\\
+			\hline
+			$N_{15}$ & $\skobkiKr{\dfrac1{16}, \dfrac14}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobki{[}{)}{g_{2m}^+, g_2^m}$ & $\skobki{[}{]}{g_{30}^*, g_{31}^*}$ & $R_1^-$\\
+			\hline
+			$N_{16}$ & $\skobkiKr{\dfrac14, +\infty}$ & $\skobkiKr{\phantom{-}1, -1}$ & $\skobki{(}{]}{g_2^m, g_{2m}^-}$ & $\skobkiKr{g_{31}^*, +\infty}$ & $R_1^-$\\
+			\hline
+			$N_{17}$ & $\skobkiKr{-\infty, \dfrac14}$ & $\skobkiKr{-1, \phantom{-}1}$ & $\skobki{(}{]}{-\infty, g_{2m}^-}$ & $\skobkiKr{-\infty, \dfrac14}$ & $R_1^-$\\
+			\hline
+			$N_{18}$ & $\skobkiKr{\dfrac14,+\infty}$ & $\skobkiKr{-1, \phantom{-}1}$ & $\skobki{[}{)}{g_{2m}^+,0}$ & $\skobkiKr{\dfrac14, g_3^*}$ & $R_1^-$\\
+			\hline
+			$N_{19}$ & $\skobki{(}{]}{-\infty,\dfrac1{16}}$ & $\skobkiKr{-1, -1}$ & $\skobki{(}{]}{g_2^p,g_{2p}^-}$ & $\skobkiKr{-\infty, g_{31}^*}$ & $R_1^+$\\
+			\hline
+			$N_{20}$ & $\skobkiKr{\dfrac1{16},\dfrac14}$ & $\skobkiKr{-1, -1}$ & $\skobki{(}{]}{g_2^p,g_{2p}^-}$ & $\skobkiKr{-\infty, g_{3}^*}$ & $R_1^+$\\
+			\hline
+			$N_{21}$ & $\skobkiKr{\dfrac1{16},\dfrac14}$ & $\skobkiKr{-1, -1}$ & $\skobki{(}{]}{g_2^p,0}$ & $\skobkiKr{g_{3}^*,g_{30}^*}$ & $R_1^+$\\
+			\hline
+		\end{longtable}
+	\end{center}
+	
+	ƒл€ выписанных условий существовани€ положений равновеси€ требуютс€ дополнительные исследовани€ системы неравенств $p>0$ и $\mathfrak{D} >= 0$ дл€ точного вывода об устойчивости. ¬ силу громоздкости выражений $p$ и $\mathfrak{D}$ четырех параметрической задачи проводитс€ они не будут.
 	
 	\begin{thebibliography}{}
 		\bibitem{Kunicin_Ob_ustoychivosti_v_krit_sl} уницын~ј.\,Ћ. ќб устойчивости в критическом случае чисто мнимых корней при внутреннем резонансе // ƒиференциальные уравнени€. 1971. “. 7. є 9. —. 1704--1706.
