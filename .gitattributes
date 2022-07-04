@@ -1,3 +1,4 @@
 Article.pdf filter=lfs diff=lfs merge=lfs -text
 images/ris-01.eps filter=lfs diff=lfs merge=lfs -text
 images/ris-02.eps filter=lfs diff=lfs merge=lfs -text
+Article-Safonov.doc filter=lfs diff=lfs merge=lfs -text
