@@ -1,0 +1,7 @@
+﻿О периодических движениях гамильтоновой системы с двумя степенями свободы в окрестности кратного резонанса третьего порядка
+
+On periodic motions of a Hamiltonian system with two degrees of freedom in the vicinity of a multiple resonance of the third order
+
+Ключевые слова: гамильтоновая система, двойной резонанс третьего порядка, устойчивость в линейном приближении, периодические движения
+
+Keywords: Hamiltonian system, third-order double resonance, stability in linear approximation, periodic motions
