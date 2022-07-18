@@ -5,3 +5,176 @@ On periodic motions of a Hamiltonian system with two degrees of freedom in the v
 Ключевые слова: гамильтоновая система, двойной резонанс третьего порядка, устойчивость в линейном приближении, периодические движения
 
 Keywords: Hamiltonian system, third-order double resonance, stability in linear approximation, periodic motions
+
+
+		\bibitem{}Kholostova O.V. О движении гамильтоновой системы с одной степенью свободы при резонансе в вынужденных колебаниях // Известия Российской академии наук. Механика твердого тела. 1996. № 3. С. 167--175.
+		
+		\bibitem{}Kholostova O.V. On bifurcations and stability of resonance periodic motions of hamiltonian systems with one degree of freedom caused by degeneration of the hamiltonian, Nelineinaya dinamika, 2006, vol.2, no 1, pp. 87--108.
+		
+		\bibitem{}Kholostova O.V. О резонансных периодических движениях гамильтоновых систем с одной степенью свободы при вырождении гамильтониана // Прикладная математика и механика. 2006. Т. 70. Вып. 4. С. 568--580.
+		
+		\bibitem{}Kholostova O.V. The motion of a system close to Hamiltonian with one degree of freedom when there is resonance in forced vibrations, Journal of Applied Mathematics and Mechanics, 1996, vol. 60, no. 3, pp. 399--406.
+		
+		\bibitem{}Kholostova O.V., Investigation of non-linear oscillations of one-degree-of-freedom Hamiiltonian systems at resonances, Moscow:  MAI, 2011.
+		
+		\bibitem{}Markeyev A.P. О поведении нелинейной гамильтоновой системы с одной степенью свободы на границе области параметрического резонанса // Прикладная математика и механика. 1995. Т. 59. Вып. 4. С. 569--580.
+		
+		\bibitem{}Markeyev A.P. Параметрический резонанс и нелинейные колебания тяжелого твердого тела в окрестности его плоских вращений // Известия Российской академии наук. Механика твердого тела. 1995. № 5. С. 34--44.
+		
+		\bibitem{}Kholostova O.V. Параметрический резонанс в задаче о нелинейных колебаниях спутника на эллиптической орбите // Космические исследования. 1996. Т. 34. Вып. 3. С. 312--316.
+		
+		\bibitem{}Kholostova O.V. О периодических движениях неавтономной гамильтоновой системы с двумя степенями свободы при параметрическом резонансе основного типа // Прикладная математика и механика. 2002. Т. 66. Вып. 4. С. 540--551.
+		
+		\bibitem{}Markeyev A.P. Резонанс третьего порядка в гамильтоновой системе с одной степенью свободы // Прикладная математика и механика. 1994. Т. 58. Вып. 5. С. 37--48.
+		
+		\bibitem{}Kholostova O.V. О нелинейных колебаниях спутника при резонансе третьего порядка // Прикладная математика и механика. 1997. Т. 61. Вып. 4. С. 556--565.
+		
+		\bibitem{}Markeyev A.P. О критическом случае резонанса четвертого порядка в гамильтоновой системе с одной степенью свободы // Прикладная математика и механика. 1997. Т.61. Вып.3. С.369--376.
+		
+		\bibitem{}Kholostova O.V. О нелинейных колебаниях гамильтоновой системы с одной степенью свободы при резонансе четвертого порядка  // Прикладная математика и механика. 1998. Т. 62. Вып. 6. С. 957--967.
+		
+		\bibitem{}Kholostova O.V. О движении близкой к гамильтоновой системы с одной степенью свободы при резонансе четвертого порядка // Известия Российской академии наук. Механика твердого тела. 1999. № 4. С. 25--30.
+		
+		\bibitem{}Khazin L.G. Ob ustoichivosti polozheniya ravnovesiya gamil'tonovykh sistem differentsial'nykh uravnenii (Vzaimodeistvie rezonansov tret'ego poryadka), Institut prikladnoi matematiki AN SSSR, preprint no. 133, Moscow, 1981, 20 p.
+		
+		\bibitem{}Khazin L.G. Interaction of third-order resonances in problems of the stability of hamiltonian systems,  J. of applied mathematics and mechanics, 1984, vol. 48, Is-sue 3, pp. 356-380.
+		
+		\bibitem{}Kunicyn A.L. Differencial'nye uravnenija, 1971, vol. 7, no. 9, pp. 1704-1706.
+		
+		\bibitem{}Khazina G.G. Certain stability questions in the presence of resonances, J. of ap-plied mathematics and mechanics, 1974, vol. 38, Issue 1, pp. 43-51.
+		
+		\bibitem{}Kunitsyn A.L., Medvedev S.V. On stability in the presence of several resonances, J. of applied mathematics and mechanics, 1977, vol. 41, no. 3, pp. 419-426.
+		
+		\bibitem{}Kunitsyn A.L., Tashimov L.T. Nekotorye zadachi ustoichivosti nelineinykh rezo-nansnykh system,  Alma-Ata, Gylym, 1990, 196 p.
+		
+		\bibitem{}Markeev A.P. On a Multiple Resonance in Linear Hamiltonian Systems, Doklady Physics, 2005, vol. 50, no. 5,  pp. 278-282.
+		
+		\bibitem{}Markeyev A.P. Multiple parametric resonance in Hamilton systems, J. of applied mathematics and mechanics, 2006, vol. 70, no. 2, pp. 176-194.
+		
+		\bibitem{}Markeev A.P. Lineinye gamil'tonovy sistemy i nekotorye zadachi ob ustoichi-vosti dvizheniya sputnika otnositel'no tsentr mass, Moscow – Izhevsk, Institut komp'yuternykh issledovanii, 2009, 396 p.
+		
+		\bibitem{}Markeev A.P.  Multiple Resonance in One Problem of the Stability of the Mo-tion of a Satellite Relative to the Center of Mass, Astronomy Letters,  2005, vol. 31, no. 9, pp. 627-633.
+		
+		\bibitem{}Markeev A.P. Кратный резонанс в одной задаче об устойчивости движения спутника относительно центра масс // Письма в Астрономический журнал. 2015. Т. 31. № 9. С. 701--708.
+		
+		\bibitem{}Kholostova O.V.  Nelineinaya dinamika,  2015, vol. 11, no. 4, pp. 671-683.
+		
+		\bibitem{}Kholostova O. Stability of triangular libration points in a planar restricted elliptic three body problem in cases of double resonances, International Journal of Non-Linear Mechanics, 2015, vol. 73, pp. 64-68.
+		
+		\bibitem{}Kholostova O.V. Nelineinaya dinamika, 2012, vol. 8, no. 2, pp. 267-288.
+		
+		\bibitem{}Safonov A.I., Kholostova O.V. Vestnik Udmurtskogo universiteta. Matematika. Mekhanika. Komp'yuternye nauki, 2016, vol. 26, no. 3, pp. 418-438.
+		
+		\bibitem{}Kholostova O.V. О кратных резонансах четвертого порядка в неавтономной гамильтоновой системе с двумя степенями свободы // Вестник Удмуртского университета. 2019. Т. 29. Вып. 2. С. 275--294.
+		
+		\bibitem{}Kholostova~O.\,V. On nonlinear oscillations of time-periodic Hamiltonian system in the presence of double fourth-order resonances. Journal of Physics: Conference Series 1959 (2021), 2021.
+		
+		\bibitem{}Kunitsyn A.L., Markeev A.P. Устойчивость в резонансных случаях // Итоги науки и техники. ВИНИТИ. Сер. Общая механика. 1979. Т. 4. С. 58--139.
+		
+		\bibitem{}Якубович В.А., Старжинский~В.\,М. Параметрический резонанс в линейных системах. М.:Наука, 1987. 328 с.
+		
+		\bibitem{}Малкин И.Г. Некоторые задачи теории нелинейных колебаний. М.: Гостехиздат, 1956. 492 с.
+
+
+================================================================================================================================
+		\bibitem{}Kholostova O.V. O dvizhenii gamil'tonovoi sistemy s odnoi stepen'yu svobody pri rezonanse v vynuzhdennykh kolebaniyakh // Izvestiya Rossiiskoi akademii nauk. Mekhanika tverdogo tela. 1996. № 3. S. 167--175.
+		
+		\bibitem{}Kholostova O.V. On bifurcations and stability of resonance periodic motions of hamiltonian systems with one degree of freedom caused by degeneration of the hamiltonian, Nelineinaya dinamika, 2006, vol.2, no 1, pp. 87--108.
+		
+		\bibitem{}Kholostova O.V. O rezonansnykh periodicheskikh dvizheniyakh gamil'tonovykh sistem s odnoi stepen'yu svobody pri vyrozhdenii gamil'toniana // Prikladnaya matematika i mekhanika. 2006. T. 70. Vyp. 4. S. 568--580.
+		
+		\bibitem{}Kholostova O.V. The motion of a system close to Hamiltonian with one degree of freedom when there is resonance in forced vibrations, Journal of Applied Mathematics and Mechanics, 1996, vol. 60, no. 3, pp. 399--406.
+		
+		\bibitem{}Kholostova O.V., Investigation of non-linear oscillations of one-degree-of-freedom Hamiiltonian systems at resonances, Moscow:  MAI, 2011.
+		
+		\bibitem{}Markeyev A.P. O povedenii nelineinoi gamil'tonovoi sistemy s odnoi stepen'yu svobody na granitse oblasti parametricheskogo rezonansa // Prikladnaya matematika i mekhanika. 1995. T. 59. Vyp. 4. S. 569--580.
+		
+		\bibitem{}Markeyev A.P. Parametricheskii rezonans i nelineinye kolebaniya tyazhelogo tverdogo tela v okrestnosti ego ploskikh vrashchenii // Izvestiya Rossiiskoi akademii nauk. Mekhanika tverdogo tela. 1995. № 5. S. 34--44.
+		
+		\bibitem{}Kholostova O.V. Parametricheskii rezonans v zadache o nelineinykh kolebaniyakh sputnika na ellipticheskoi orbite // Kosmicheskie issledovaniya. 1996. T. 34. Vyp. 3. S. 312--316.
+		
+		\bibitem{}Kholostova O.V. O periodicheskikh dvizheniyakh neavtonomnoi gamil'tonovoi sistemy s dvumya stepenyami svobody pri parametricheskom rezonanse osnovnogo tipa // Prikladnaya matematika i mekhanika. 2002. T. 66. Vyp. 4. S. 540--551.
+		
+		\bibitem{}Markeyev A.P. Rezonans tret'ego poryadka v gamil'tonovoi sisteme s odnoi stepen'yu svobody // Prikladnaya matematika i mekhanika. 1994. T. 58. Vyp. 5. S. 37--48.
+		
+		\bibitem{}Kholostova O.V. O nelineinykh kolebaniyakh sputnika pri rezonanse tret'ego poryadka // Prikladnaya matematika i mekhanika. 1997. T. 61. Vyp. 4. S. 556--565.
+		
+		\bibitem{}Markeyev A.P. O kriticheskom sluchae rezonansa chetvertogo poryadka v gamil'tonovoi sisteme s odnoi stepen'yu svobody // Prikladnaya matematika i mekhanika. 1997. T.61. Vyp.3. S.369--376.
+		
+		\bibitem{}Kholostova O.V. O nelineinykh kolebaniyakh gamil'tonovoi sistemy s odnoi stepen'yu svobody pri rezonanse chetvertogo poryadka  // Prikladnaya matematika i mekhanika. 1998. T. 62. Vyp. 6. S. 957--967.
+		
+		\bibitem{}Kholostova O.V. O dvizhenii blizkoi k gamil'tonovoi sistemy s odnoi stepen'yu svobody pri rezonanse chetvertogo poryadka // Izvestiya Rossiiskoi akademii nauk. Mekhanika tverdogo tela. 1999. № 4. S. 25--30.
+		
+		\bibitem{}Khazin L.G. Ob ustoichivosti polozheniya ravnovesiya gamil'tonovykh sistem differentsial'nykh uravnenii (Vzaimodeistvie rezonansov tret'ego poryadka), Institut prikladnoi matematiki AN SSSR, preprint no. 133, Moscow, 1981, 20 p.
+		
+		\bibitem{}Khazin L.G. Interaction of third-order resonances in problems of the stability of hamiltonian systems,  J. of applied mathematics and mechanics, 1984, vol. 48, Is-sue 3, pp. 356-380.
+		
+		\bibitem{}Kunicyn A.L. Differencial'nye uravnenija, 1971, vol. 7, no. 9, pp. 1704-1706.
+		
+		\bibitem{}Khazina G.G. Certain stability questions in the presence of resonances, J. of ap-plied mathematics and mechanics, 1974, vol. 38, Issue 1, pp. 43-51.
+		
+		\bibitem{}Kunitsyn A.L., Medvedev S.V. On stability in the presence of several resonances, J. of applied mathematics and mechanics, 1977, vol. 41, no. 3, pp. 419-426.
+		
+		\bibitem{}Kunitsyn A.L., Tashimov L.T. Nekotorye zadachi ustoichivosti nelineinykh rezo-nansnykh system,  Alma-Ata, Gylym, 1990, 196 p.
+		
+		\bibitem{}Markeev A.P. On a Multiple Resonance in Linear Hamiltonian Systems, Doklady Physics, 2005, vol. 50, no. 5,  pp. 278-282.
+		
+		\bibitem{}Markeyev A.P. Multiple parametric resonance in Hamilton systems, J. of applied mathematics and mechanics, 2006, vol. 70, no. 2, pp. 176-194.
+		
+		\bibitem{}Markeev A.P. Lineinye gamil'tonovy sistemy i nekotorye zadachi ob ustoichi-vosti dvizheniya sputnika otnositel'no tsentr mass, Moscow – Izhevsk, Institut komp'yuternykh issledovanii, 2009, 396 p.
+		
+		\bibitem{}Markeev A.P.  Multiple Resonance in One Problem of the Stability of the Mo-tion of a Satellite Relative to the Center of Mass, Astronomy Letters,  2005, vol. 31, no. 9, pp. 627-633.
+		
+		\bibitem{}Markeev A.P. Kratnyi rezonans v odnoi zadache ob ustoichivosti dvizheniya sputnika otnositel'no tsentra mass // Pis'ma v Astronomicheskii zhurnal. 2015. T. 31. № 9. S. 701--708.
+		
+		\bibitem{}Kholostova O.V.  Nelineinaya dinamika,  2015, vol. 11, no. 4, pp. 671-683.
+		
+		\bibitem{}Kholostova O. Stability of triangular libration points in a planar restricted elliptic three body problem in cases of double resonances, International Journal of Non-Linear Mechanics, 2015, vol. 73, pp. 64-68.
+		
+		\bibitem{}Kholostova O.V. Nelineinaya dinamika, 2012, vol. 8, no. 2, pp. 267-288.
+		
+		\bibitem{}Safonov A.I., Kholostova O.V. Vestnik Udmurtskogo universiteta. Matematika. Mekhanika. Komp'yuternye nauki, 2016, vol. 26, no. 3, pp. 418-438.
+		
+		\bibitem{}Kholostova O.V. O kratnykh rezonansakh chetvertogo poryadka v neavtonomnoi gamil'tonovoi sisteme s dvumya stepenyami svobody // Vestnik Udmurtskogo universiteta. 2019. T. 29. Vyp. 2. S. 275--294.
+		
+		\bibitem{}Kholostova~O.\,V. On nonlinear oscillations of time-periodic Hamiltonian system in the presence of double fourth-order resonances. Journal of Physics: Conference Series 1959 (2021), 2021.
+		
+		\bibitem{}Kunitsyn A.L., Markeev A.P. Ustoichivost' v rezonansnykh sluchayakh // Itogi nauki i tekhniki. VINITI. Ser. Obshchaya mekhanika. 1979. T. 4. S. 58--139.
+		
+		\bibitem{}Yakubovich V.A., Starzhinskii~V.\,M. Parametricheskii rezonans v lineinykh sistemakh. M.:Nauka, 1987. 328 s.
+		
+		\bibitem{}Malkin I.G. Nekotorye zadachi teorii nelineinykh kolebanii. M.: Gostekhizdat, 1956. 492 s.
+=========================================================================================================================
+Холостова О.В. Исследование нелинейных колебаний гамильтоновых систем с одной степенью свободы при резонансах. Учебное пособие. М.:Изд-во МАИ, 2011. 96 с.
+
+Хазин Л.Г. Об устойчивости положения равновесия гамильтоновых систем дифференциальных уравнений (Взаимодействие резонансов третьего порядка). Институт прикладной математики АН СССР. Препринт №133. М.,1981. 20 с.
+
+Куницын А.Л., Ташимов Л.Т. Некоторые задачи устойчивости нелинейных резонансных систем. Алма-Ата: Гылым, 1990. 196 с.
+
+Маркеев А.П. Линейные гамильтоновы системы и некоторые задачи об устойчивости движения спутника относительно центра масс. Ижевск: НИЦ "Регулярная и хаотич. динамика", Институт компьютерных исследований, 2009. 396 с.
+
+Якубович В.А., Старжинский~В.\,М. Параметрический резонанс в линейных системах. М.:Наука, 1987. 328 с.
+
+Малкин И.Г. Некоторые задачи теории нелинейных колебаний. М.: Гостехиздат, 1956. 492 с.
+=======================================================================
+Kholostova O.V. Investigation of nonlinear oscillations of Hamiltonian systems with one degree of freedom at resonances. Tutorial. M.: MAI Publishing House, 2011. 96 p.
+
+
+
+Khazin L.G. On the stability of the equilibrium position of Hamiltonian systems of differential equations (Interaction of third-order resonances). Institute of Applied Mathematics, USSR Academy of Sciences. Preprint #133. M., 1981. 20 s.
+
+
+
+Kunitsyn A.L., Tashimov L.T. Some Problems of Stability of Nonlinear Resonant Systems. Alma-Ata: Gylym, 1990. 196 p.
+
+
+
+Markeev A.P. Linear Hamiltonian systems and some problems of satellite motion stability relative to the center of mass. Izhevsk: Research Center "Regular and Chaotic Dynamics", Institute of Computer Research, 2009. 396 p.
+
+
+
+Yakubovich V.A., Starzhinsky~V.\, M. Parametric resonance in linear systems. M.: Nauka, 1987. 328 p.
+
+
+
+Malkin I.G. Some problems of the theory of nonlinear oscillations. M.: Gostekhizdat, 1956. 492 p.
